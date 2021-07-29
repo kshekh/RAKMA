@@ -1,0 +1,28 @@
+{
+  "name": "Wallplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "npx tailwindcss -i src/tailwind/index.css -o src/dist/css/styles.css -w --verbose --jit --purge=\"./public/**/*.{html,js,jsx},./src/**/*.html\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-focus": "^5.0.1",
+    "tailwindcss": "^2.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "alpinejs": "^2.6.0",
+    "lightgallery": "^2.1.8",
+    "swiper": "^6.7.5",
+    "typeface-montserrat": "^1.1.13"
+  }
+}
