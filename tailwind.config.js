@@ -43,8 +43,13 @@ secondary:{
  
 
 boxShadow:{
-'1':'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
-'2': 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+'1':'rgba(0, 0, 0, 0.24) 0 3px 8px;',
+'2': 'rgba(0, 0, 0, 0.35) 0 5px 15px',
+'3': 'rgba(0, 0, 0, 0.4) 0 30px 90px',
+'4': 'rgba(0, 0, 0, 0.1) 0px 10px 50px',
+'5': 'rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px',
+'6': 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'
+ 
 },
 
 },
@@ -135,5 +140,6 @@ transition: 'all 0.35s ease-in-out'
     }),
   require('@tailwindcss/typography'),
   require('@tailwindcss/line-clamp'),
+  require('@tailwindcss/forms'),
   ],
 }

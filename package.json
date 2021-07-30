@@ -18,6 +18,7 @@
     "tailwindcss": "^2.2.4"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/line-clamp": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
     "alpinejs": "^2.6.0",
