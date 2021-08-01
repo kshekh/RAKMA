@@ -133,8 +133,11 @@ transition: 'all 0.35s ease-in-out'
 },
  
  
-        '.rating-stars' : {
-          
+        '.donate-amount' : {
+          '& input[type=radio]:checked + span':{
+            borderColor: theme('borderColor.secondary.DEFAULT'),
+            color: theme('colors.secondary.DEFAULT'),
+          },
         }
       })
     }),
