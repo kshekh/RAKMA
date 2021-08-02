@@ -1,6 +1,6 @@
 /* Fonts from typekit font-family:all-round-gothic & font-family: montserrat*/
 /* @import url("https://use.typekit.net/vmn8uyr.css"); */
-@import url('fonts/fonts.css'); 
+  
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

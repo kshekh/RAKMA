@@ -1,3 +1,4 @@
+const { backgroundOpacity } = require("tailwindcss/defaultTheme");
 const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require('tailwindcss/plugin');
 
@@ -94,9 +95,32 @@ transition: 'all 0.35s ease-in-out'
     display: 'flex !important'
                },
   
-'& li.active > a':{
+'& li.active > .menu-item':{
   borderColor: theme('borderColor.white'),
   },
+
+  '& .dropdown':{    
+    '@screen md':{
+      
+      '& > .dropdown-menu':{
+        display:'none'
+      },
+      '&.show > .dropdown-menu':{
+        display:'block'
+      },
+
+    '&:hover':{
+    '& > .menu-item' :{ 
+      borderColor: theme('borderColor.white'),
+      '--tw-bg-opacity': theme('backgroundOpacity.5')
+    },
+    
+    '& > .dropdown-menu':{
+      display:'block'
+    },
+  }
+  } 
+}
 
 },
 

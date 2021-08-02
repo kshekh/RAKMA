@@ -34,13 +34,13 @@
          </div>
          <!-- Header Middle -->
          <div class="border-b border-gray-300 py-2 w-full relative">
-            <div class="absolute left-0 top-0 w-10 xl:w-auto"><img src="../src/dist/img/hgtl.png" alt=""></div>
-            <div class="absolute top-0 right-0 w-10 xl:w-auto"><img src="../src/dist/img/hgtr.png" alt=""></div>
+            <div class="absolute left-0 top-0 w-10 xl:w-auto"><img src="/src/dist/img/hgtl.png" alt=""></div>
+            <div class="absolute top-0 right-0 w-10 xl:w-auto"><img src="/src/dist/img/hgtr.png" alt=""></div>
             <div class="max-w-screen-lg xl:max-w-screen-xl px-4 xl:px-12 mx-auto flex flex-col md:flex-row">
                <div class="text-blues font-bold mx-auto md:ml-0 xs:max-w-xs md:max-w-none  ">
                   <a href="javascript:void(0)" class="pb-2 xs:py-3 flex gap-3 ">
                      <span class="w-14 xs:w-20">
-                        <img src="../src/dist/img/icon-logo-RAKMA.png" alt="" class="">
+                        <img src="/src/dist/img/icon-logo-RAKMA.png" alt="" class="">
                      </span>
                      <span class="flex flex-col text-gray-600">
                         <span class="text-4xl font-extrabold text-primary lg:tracking-[2.5rem] md:tracking-[1.5rem] xs:tracking-[1.3rem]   leading-none">RAKMA</span>
@@ -83,7 +83,7 @@
                      <!-- Search Bar -->
                      <div class="relative w-full ">
                         <input type="text"
-                           class="border border-gray-300 rounded py-2 md:py-3 pl-4 focus:outline-none focus:border-secondary focus:placeholder-secondary focus:text-secondary w-full pr-12"
+                           class="border border-gray-300 rounded py-2 md:py-3 pl-4 focus:outline-none outline-none ring-0 focus:ring-0 focus:border-secondary focus:placeholder-secondary focus:text-secondary w-full pr-12"
                            placeholder="Search">
                         <button
                            class="absolute top-0 right-0 rounded-r w-12 items-center justify-center flex inset-y-0 bg-primary text-white cursor-pointer  focus:outline-none hover:bg-secondary"><svg
@@ -189,28 +189,53 @@
                   
                   >
                      <li class="flex items-stretch "><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Home</a>
+                           class="menu-item flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Home</a>
                      </li>
                      <li class="flex items-stretch"><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">About
+                           class="menu-item flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">About
                            Us</a></li>
                      <li class="flex items-stretch"><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Executive</a>
+                           class="menu-item flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Executive</a>
+                     </li>
+                     <li class="flex flex-wrap md:flex-nowrap items-stretch dropdown relative">
+                        <div class="menu-item flex justify-center items-stretch font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white ">
+                        <a href="javascript:void(0)" class="flex items-center">Welfare</a>
+                            <svg class="ml-1 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+											<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+										</svg>
+									 </div>
+                           <div class="dropdown-menu md:origin-top-right md:absolute md:left-0 md:w-60 md:rounded-b-md md:shadow-lg md:py-1 md:bg-white md:ring-1 md:ring-black md:ring-opacity-5 md:transition md:ease-out md:duration-100 md:top-full md:shadow-3xl md:transform md:opacity-100 w-full" 
+                            >     
+                              <a href="#" class="text-white block md:px-4 py-2 md:text-sm md:text-gray-700 md:hover:bg-blues md:hover:text-white font-semibold" role="menuitem">Education Welfare</a>
+                              <a href="#" class="text-white block md:px-4 py-2 md:text-sm md:text-gray-700 md:hover:bg-blues md:hover:text-white font-semibold" role="menuitem">Social Welfare</a>
+                              <a href="#" class="text-white block md:px-4 py-2 md:text-sm md:text-gray-700 md:hover:bg-blues md:hover:text-white font-semibold" role="menuitem">Other Welfare</a>
+                           </div>
                      </li>
                      <li class="flex items-stretch"><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Walefare</a>
-                     </li>
+                           class="menu-item flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">News</a></li>
                      <li class="flex items-stretch"><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">News
-                           & Events</a></li>
+                           class="menu-item flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Events</a></li>
                      <li class="flex items-stretch"><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Galarry</a>
+                           class="menu-item flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Galarry</a>
                      </li>
-                     <li class="flex items-stretch active"><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white">Membership</a>
+                     
+                     <li class="flex flex-wrap md:flex-nowrap items-stretch dropdown relative">
+                        <div class="menu-item flex justify-center items-stretch font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white ">
+                        <a href="javascript:void(0)" class="flex items-center">Membership</a>
+                            <svg class="ml-1 w-5 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+											<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+										</svg>
+									 </div>
+                           <div class="dropdown-menu md:origin-top-right md:absolute md:left-0 md:w-60 md:rounded-b-md md:shadow-lg md:py-1 md:bg-white md:ring-1 md:ring-black md:ring-opacity-5 md:transition md:ease-out md:duration-100 md:top-full md:shadow-3xl md:transform md:opacity-100 w-full" 
+                            >     
+                              <a href="#" class="text-white block md:px-4 py-2 md:text-sm md:text-gray-700 md:hover:bg-blues md:hover:text-white font-semibold" role="menuitem">Join Now</a>
+                              <a href="#" class="text-white block md:px-4 py-2 md:text-sm md:text-gray-700 md:hover:bg-blues md:hover:text-white font-semibold" role="menuitem">Upgrade Membership</a> 
+                           </div>
                      </li>
+
+
                      <li class="md:flex items-stretch hidden"><a href="javascript:void(0)"
-                           class="flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white"><svg
+                           class="menu-item flex justify-center items-center font-semibold text-white hover:border-white border-b-2 border-transparent hover:bg-opacity-5 bg-opacity-0 bg-white"><svg
                               viewBox="0 0 14 10" fill="currentColor" class="w-2.5 lg:w-3.5">
                               <path d="M1128,240h14v2h-14v-2Zm0,4h14v2h-14v-2Zm0,4h14v2h-14v-2Z"
                                  transform="translate(-1128 -240)" />
